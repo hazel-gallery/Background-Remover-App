@@ -15,9 +15,6 @@ then
     echo "Installing miniconda ......"
     bash Miniconda3-latest-Linux-x86_64.sh -b
 
-    echo "Cloning git repo ......"
-    git clone https://github.com/hazel-gallery/demo_app.git
-
     echo "Install python package ......"
     miniconda3/bin/pip install -r demo_app/requirements.txt
 

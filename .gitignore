@@ -1,3 +1,4 @@
 temp/
 outputs/
 test*
+.DS_Store

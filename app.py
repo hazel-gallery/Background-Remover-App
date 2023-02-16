@@ -44,6 +44,15 @@ if app_mode == "Welcome":
     st.write('Welcome')
 
 elif app_mode == "Backgournd Remover":
+    if os.path.isdir('temp'):
+        pass
+    else:
+        os.mkdir('temp')
+    if os.path.isdir('outputs'):
+        pass
+    else:
+        os.mkdir('outputs')
+
     st.title("Background Remover")
     st.markdown('''
         Intro here
